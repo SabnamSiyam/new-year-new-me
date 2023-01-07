@@ -2,7 +2,9 @@
   margin: 0px;
   font-family: "Work Sans", sans-serif;
 }
-/* banner section */
+
+/* **banner section** */
+
 .banner {
   text-align: right;
 
@@ -12,15 +14,13 @@
   left: 1600.0001220703125px;
   top: 808.0001220703125px;
   border-radius: 0px;
-
   background-repeat: no-repeat;
-
 }
+
 .btn-primary {
   height: 64px;
   width: 160px;
-  left: 1210px;
-  top: 578px;
+  margin-right: 230px;
   border: 0px;
   border-radius: 5px;
   margin-top: 30px;
@@ -29,24 +29,105 @@
   font-size: 20px;
   line-height: 23px;
   background: #ffffff;
-  margin-right: 200px;
 }
 
 .banner-title {
-  align-items: center;
+  width: 525px;
+  height: 228px;
+  margin-left: 845px;
+  margin-right: 230px;
+  margin-top: 216px;
+
   font-weight: 700;
   font-size: 65px;
   line-height: 76px;
   text-align: right;
   color: #ffffff;
-  margin-right: 200px;
 }
-.passage {
+
+.banner-passage {
+  height: 78px;
+  width: 494px;
+  margin-left: 876px;
+  margin-top: 20px;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-
   text-align: right;
   color: #ffffff;
-  margin-right: 200px;
+}
+
+/* **My Plans** */
+
+.My-Plans {
+  margin-left: 230px;
+  margin-right: 217px;
+  width: 1153px;
+}
+
+.icon {
+  margin-left: 100px;
+}
+
+.skills-container {
+  display: flex;
+  width: 1153px;
+  height: 226px;
+  margin-bottom: 107px;
+}
+
+.skill-tittle {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+
+  color: #151414;
+}
+
+.skill-description {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  color: #737272;
+}
+
+.section-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.skill {
+  width: 1153px;
+  height: 226px;
+  left: 230px;
+  top: 1889px;
+}
+.btn-banner {
+  background-image: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
+    url(/images/watch.png);
+
+  height: 300px;
+  width: 1140px;
+  left: 230px;
+  top: 2222px;
+  border-radius: 8px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.banner-text {
+  margin-left: 37px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  width: 488px;
+  height: 188px;
+  left: 267px;
+  color: #ffffff;
 }
