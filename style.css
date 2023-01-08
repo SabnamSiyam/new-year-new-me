@@ -7,7 +7,7 @@
 
 .banner {
   text-align: right;
-  background-image: url(/images/banner/banner3.png);
+  background-image: url(./images/banner/banner3.png);
   height: 808.0000000000031px;
   width: 1600.0001220703186px;
   left: 1600.0001220703125px;
@@ -156,7 +156,7 @@ ul li:before {
 /* *botton banner-watch* */
 .btn-banner {
   background-image: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
-    url(/images/watch.png);
+    url(./images/watch.png);
 
   height: 300px;
   width: 1140px;
