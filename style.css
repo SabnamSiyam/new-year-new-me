@@ -20,14 +20,14 @@
   height: 64px;
   width: 160px;
   margin-right: 230px;
-  border: 0px;
+  border: 5px;
   border-radius: 5px;
   margin-top: 30px;
   color: #005fac;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 23px;
-  background: #ffffff;
+font-size: 20px;
+text-align: center;
+
 }
 
 .banner-title {
@@ -247,6 +247,21 @@ ul li:before {
   left: 1046px;
   top: 2781.96px;
 }
+.email{
+  margin-top: 31px;
+  background: #181717;
+  height: 64px;
+  width: 325px;
+  left: 1046px;
+  top: 2841.95849609375px;
+  border-radius: 8px;
+  border: 3px solid #FFFFFF
+  font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #F3F3F3;
+
+}
 .btn-footer {
   width: 170.11px;
   height: 64px;
@@ -259,25 +274,11 @@ ul li:before {
   border-radius: 8px;
 }
 
-.btn-fotter- {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  color: #f3f3f3;
-  border: 1px solid #ffffff;
-  border-radius: 8px;
-  width: 325px;
-  height: 64px;
-  left: 1046px;
-  top: 2841.96px;
-  background-color: #151414;
-  margin-top: 31px;
-}
 
 .copyright {
   color: rgb(36, 153, 215);
   margin-top: 130px;
-  font-size: medium;
+  font-size: large;
 }
 
 /* -The End- */
